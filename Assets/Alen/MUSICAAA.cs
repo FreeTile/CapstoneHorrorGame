@@ -7,7 +7,10 @@ public class MUSICAAA : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Story: A long time ago");
+        if (Input.anyKey)
+        {
+
+        }
     }
 
     // Update is called once per frame
